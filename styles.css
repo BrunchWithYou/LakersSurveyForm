@@ -4,4 +4,5 @@ body{
 
 .checked:checked + label{
   text-decoration: line-through;
+  color:green;
 }
