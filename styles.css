@@ -1,3 +1,7 @@
 body{
   background-color: rgb(233, 242, 232);
 }
+
+.checked:checked + label{
+  text-decoration: line-through;
+}
