@@ -8,65 +8,75 @@
     <title>A VERY REAL SURVEY FORM</title>
   </head>
   <body>
-    <header>
-      <h1 id="title">Something Survey Form<h1>
-      <p id="description">Description for this meme ass survey</p>
-    </header>
+    <div class="container">
+      <header>
+        <h1 id="title">Will the
+          <span class="L">L</span>
+          <span class="A">A</span>
+          <span class="K">K</span>
+          <span class="E">E</span>
+          <span class="R">R</span>
+          <span class="S">S</span> win it all this year?<h1>
+        <img class="alex-picture" src="https://tinyurl.com/nj28f2ja">
+          <p class="picture-caption">The Alex Caruso fan club mural</p>
+        <p id="description">Do you think the <span class="goat">GOAT, ALEX CARUSO</span>, can carry LeBron and AD to another championship ring?</p>
+      </header>
 
-    <div class="form">
-      <form id="survey-form">
-        <label id="name-label">Name:
-          <input type="text" name="name" id="name" required placeholder="Enter your name">
-        </label><br>
+      <div class="form">
+        <form id="survey-form">
+          <label id="name-label">Name:
+            <input type="text" name="name" id="name" required placeholder="Enter your name">
+          </label><br>
 
-        <label id="email-label">Email:
-          <input type="email" name="email" id="email" required placeholder="Enter your Email">
-        </label><br>
+          <label id="email-label">Email:
+            <input type="email" name="email" id="email" required placeholder="Enter your e-mail">
+          </label><br>
 
-        <label id="number-label">Number
-          <input type="number" name="number" id="number" required min="1" max="150" placeholder="#">
-        </label><br>
+          <label id="number-label">Age:
+            <input type="number" name="number" id="number" required min="1" max="150" placeholder="Age">
+          </label><br>
 
-        <label id="dropdown">Drop down options
-          <select name="options">
-            <option value="option 1">Option 1</option>
-            <option value="option 2">Option 2</option>
-            <option value="option 3">Option 3</option>
-          </select>
-        </label>
+          <label id="dropdown">How many triple doubles will our GOAT record in this playoff run?
+            <select class="dropdown" name="options">
+              <option value="option 1">81</option>
+              <option value="option 2">Enough to break whatever wilt's record is</option>
+              <option value="option 3">Don't you mean triple singles?</option>
+            </select>
+          </label>
 
-        <div class="radio-options">
-          <input type="radio" name="radio" id="radio1" value="radio1">
-            <label for="radio1">Radio option 1</label>
-            <br>
-          <input type="radio" name="radio" id="radio2" value="radio2">
-            <label for="radio2">Radio option 2</label>
-            <br>
-          <input type="radio" name="radio" id="radio3" value="radio3">
-            <label for="radio3">Radio option 3</label>
-            <br>
-        </div>
-
-        <div class="checkbox-options">
-          <input class="checked" type="checkbox" name="checkbox" id="checkbox1" value="checkbox1">
-              <label for="checkbox1">Checkbox 1</label>
+          <div class="radio-options"><span class="radio-title">What will pose the greatest challenge to our championship run?</span></br>
+            <input type="radio" name="radio" id="radio1" value="radio1">
+              <label for="radio1">Kyrie's 3rd eye</label>
               <br>
-          <input class="checked" type="checkbox" name="checkbox" id="checkbox2" value="checkbox2">
-              <label for="checkbox2">Checkbox 2</label>
+            <input type="radio" name="radio" id="radio2" value="radio2">
+              <label for="radio2">Harden's girth</label>
               <br>
-          <input class="checked" type="checkbox" name="checkbox" id="checkbox3" value="checkbox3">
-              <label for="checkbox3">Checkbox 3</label>
+            <input type="radio" name="radio" id="radio3" value="radio3">
+              <label for="radio3">SSSssszzzzzsensitive... KD?</label>
               <br>
-        </div>
+          </div>
 
-        <label id="additional-comments">Additional Comments:
-          <textarea name="additional-comments" placeholder="Comments"></textarea>
-        </label>
+          <div class="checkbox-options"><span class="checkbox-title">What offseason moves should the GOAT make to prepare for next year?<br>
+            <input class="checked" type="checkbox" name="checkbox" id="checkbox1" value="checkbox1">
+                <label for="checkbox1">Make sure every ref in the league gets a Bentley, Rolls Royce, or Bugatti for their birthday</label>
+                <br>
+            <input class="checked" type="checkbox" name="checkbox" id="checkbox2" value="checkbox2">
+                <label for="checkbox2">Get with Riri for a workout plan</label>
+                <br>
+            <input class="checked" type="checkbox" name="checkbox" id="checkbox3" value="checkbox3">
+                <label for="checkbox3">Take goat courses on DuoLingo</label>
+                <br>
+          </div>
 
-        <div class="button">
-          <button type="submit" id="submit" class="submit-button">Submit</button>
-        </div>
-      </form>
+          <label id="additional-comments">Additional message to your goat:<br>
+            <textarea class="textarea" name="additional-comments" placeholder="Baaeehhhh"></textarea>
+          </label>
+
+          <div class="button">
+            <button type="submit" id="submit" class="submit-button">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
