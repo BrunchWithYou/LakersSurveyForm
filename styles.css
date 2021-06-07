@@ -95,7 +95,7 @@ p{
 }
 
 .checked:checked + label{
-  color:green;
+  color:lightgreen;
 }
 
 .textarea{
